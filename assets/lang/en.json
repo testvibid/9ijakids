@@ -1406,7 +1406,7 @@
     "core.login.errorupdatesite": "An error occurred while updating the site's token.",
     "core.login.findyoursite": "Find your site",
     "core.login.firsttime": "Is this your first time here?",
-    "core.login.forgotten": "Forgotten your username or password?",
+    "core.login.forgotten": "Forgotten your password?",
     "core.login.getanothercaptcha": "Get another CAPTCHA",
     "core.login.help": "Help",
     "core.login.helpmelogin": "<p>There are many thousands of Moodle sites around the world. This app can only connect to Moodle sites that have specifically enabled Mobile app access.</p><p>If you can't connect to your Moodle site then you need to contact your site administrator and ask them to read <a href=\"http://docs.moodle.org/en/Mobile_app\" target=\"_blank\">http://docs.moodle.org/en/Mobile_app</a></p><p>To test the app in a Moodle demo site type <i>teacher</i> or <i>student</i> in the <i>Site address</i> field and click the <b>Connect button</b>.</p>",
