@@ -2,18 +2,18 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.ijakids.games"
+        id        = "com.moodle.moodlemobile"
         versionCode = "36000"
         android-versionCode="36000"
         version   = "3.6.0">
-    <name>ijakids Games</name>
+    <name>Moodle</name>
 
     <description>
-        Learning, Fun and Games tailored to the learning needs of Nigerian Children.
+        Moodle official app
     </description>
 
-    <author email="info@9ijakids.com" href="https://9ijakids.com">
-            9ijakids
+    <author href="http://moodle.com" email="mobile@moodle.com">
+        Moodle Mobile team
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
@@ -159,7 +159,7 @@
         <param name="SENDER_ID" value="694767596569" />
     </gap:plugin>
 
-    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='ijakids']" mode="merge">
+    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='Moodle']" mode="merge">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true"></activity>
     </edit-config>
 
