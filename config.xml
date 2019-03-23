@@ -2,18 +2,18 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.moodle.moodlemobile"
+        id        = "com.9ijakids.games"
         versionCode = "36000"
         android-versionCode="36000"
         version   = "3.6.0">
-    <name>Moodle</name>
+    <name>9ijakids Games</name>
 
     <description>
-        Moodle official app
+        Learning, Fun and Games tailored to the learning needs of Nigerian Children.
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Mobile team
+    <author email="info@9ijakids.com" href="https://9ijakids.com">
+        9ijakids
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
