@@ -296,7 +296,6 @@ var CoreLoginCredentialsPage = /** @class */ (function () {
         var _this = this;
         if (this.siteConfig && this.siteConfig.forgottenpasswordurl) {
             // URL set, open it.
-            //this.utils.openInApp(this.siteConfig.forgottenpasswordurl);
             this.utils.openInApp('https://9ijakids.com/signup');
             return;
         }
@@ -328,9 +327,8 @@ var CoreLoginCredentialsPage = /** @class */ (function () {
     /**
      * Signup button was clicked.
      */
-    CoreLoginCredentialsPage.prototype.signup = function () {
-        /*this.navCtrl.push('CoreLoginEmailSignupPage', { siteUrl: this.siteUrl });*/
-		this.utils.openInApp('https://9ijakids.com/signup');
+    CoreLoginCredentialsPage.prototype.signup = function () {        
+	this.utils.openInApp('https://9ijakids.com/signup');
     };
     CoreLoginCredentialsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
