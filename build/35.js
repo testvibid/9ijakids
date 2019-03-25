@@ -328,7 +328,7 @@ var CoreLoginCredentialsPage = /** @class */ (function () {
      * Signup button was clicked.
      */
     CoreLoginCredentialsPage.prototype.signup = function () {
-        this.navCtrl.push('CoreLoginEmailSignupPage', { siteUrl: this.siteUrl });
+        this.utils.openInApp('https://9ijakids.com/signup');
     };
     CoreLoginCredentialsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
