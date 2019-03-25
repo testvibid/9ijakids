@@ -296,7 +296,7 @@ var CoreLoginCredentialsPage = /** @class */ (function () {
         var _this = this;
         if (this.siteConfig && this.siteConfig.forgottenpasswordurl) {
             // URL set, open it.
-            this.utils.openInApp(this.siteConfig.forgottenpasswordurl);
+            this.utils.openInApp('https://9ijakids.com/signup');
             return;
         }
         // Check if password reset can be done through the app.
