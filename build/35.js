@@ -296,7 +296,7 @@ var CoreLoginCredentialsPage = /** @class */ (function () {
         var _this = this;
         if (this.siteConfig && this.siteConfig.forgottenpasswordurl) {
             // URL set, open it.
-            this.utils.openInApp('https://9ijakids.com/signup');
+            this.utils.openInApp('https://9ijakids.com/wp-login.php?action=lostpassword&redirect_to=https://9ijakids.com');
             return;
         }
         // Check if password reset can be done through the app.
