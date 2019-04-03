@@ -3,9 +3,9 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.ijakids.games"
-        versionCode = "36000"
-        android-versionCode="36000"
-        version   = "3.6.0">
+        versionCode = "36001"
+        android-versionCode="36001"
+        version   = "3.6.1">
     <name>ijakids Games</name>
 
     <description>
