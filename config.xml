@@ -6,7 +6,7 @@
         versionCode = "36000"
         android-versionCode="36000"
         version   = "3.6.0">
-    <name>${APP_NAME}</name>
+    <name>ijakids Games</name>
 
     <description>
         Learning, Fun and Games tailored to the learning needs of Nigerian Children.
@@ -164,6 +164,7 @@
      
     <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='ijakidsGames']" mode="merge">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true"></activity>
+        <application android:label="Harshil" />
     </edit-config>
 
     <!-- See MOBILE-892 -->
