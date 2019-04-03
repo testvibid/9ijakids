@@ -6,7 +6,7 @@
         versionCode = "36000"
         android-versionCode="36000"
         version   = "3.6.0">
-    
+    <name>${APP_NAME}</name>
 
     <description>
         Learning, Fun and Games tailored to the learning needs of Nigerian Children.
