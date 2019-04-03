@@ -138,9 +138,7 @@
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm" spec="4.3.0">
         <param name="URL_SCHEME" value="moodlemobile" />
     </gap:plugin>
-    <gap:plugin name="cordova-plugin-app-name" source="npm" spec="1.0.6">
-        <param name="APP_NAME" value="9ijakids Games" />
-    </gap:plugin>
+    
     <gap:plugin name="cordova-plugin-device" source="npm" spec="2.0.2" />
     <gap:plugin name="cordova-plugin-file" source="npm" spec="6.0.1" />
     <gap:plugin name="cordova-plugin-file-opener2" source="npm" spec="2.0.19" />
@@ -164,7 +162,7 @@
      
     <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='ijakidsGames']" mode="merge">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true"></activity>
-        <application android:label="Harshil" />
+        <application android:label="9ijakids Games" />
     </edit-config>
 
     <!-- See MOBILE-892 -->
