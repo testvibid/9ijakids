@@ -1468,6 +1468,7 @@
     "core.login.siteurl": "Site URL",
     "core.login.siteurlrequired": "Site URL required i.e <i>http://www.yourmoodlesite.org</i>",
     "core.login.startsignup": "Create new account",
+    "core.login.startsignupcustom": "SIGN UP FREE",
     "core.login.stillcantconnect": "Still can't connect?",
     "core.login.supplyinfo": "More details",
     "core.login.username": "Username",
