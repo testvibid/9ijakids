@@ -176,7 +176,9 @@
     <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
         <string>We need photo library access to get pictures from there so you can attach them as part of your submissions.</string>
     </edit-config>
-
+    <edit-config target="UISupportsDocumentBrowser" file="*-Info.plist" mode="merge">
+        <true/>
+    </edit-config>
     <config-file target="*-Info.plist" parent="CFBundleDocumentTypes">
         <array>
             <dict>
