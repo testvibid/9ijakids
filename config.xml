@@ -6,7 +6,7 @@
         versionCode = "36001"
         android-versionCode="36001"
         version   = "3.6.1">
-    <name>9ijakids Games</name>
+    <name>ijakids Games</name>
 
     <description>
         Learning, Fun and Games tailored to the learning needs of Nigerian Children.
@@ -159,7 +159,7 @@
         <param name="SENDER_ID" value="694767596569" />
     </gap:plugin>
      
-    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='9ijakidsGames']" mode="merge">
+    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='ijakidsGames']" mode="merge">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true"></activity>
         <application android:label="9ijakids Games" />
     </edit-config>
